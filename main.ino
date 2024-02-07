@@ -1,7 +1,7 @@
 /*
    main.ino
    Concepted and written by Nicolas Huber
-   Version: 20221123
+   Version: 20221123 / exhibition model
    Updated by 2024-03-31 as of the Schweizer Jugend forscht 2024 initiative
 */
 
@@ -9,12 +9,12 @@
 
 // TONE (to disable tone set value to 0, other 1)
 
-int index_tone = 1;
+int index_tone = 0;
 
 // WARNINGS (to disable warnings set value to 0, other 1)
 
 int left = 1;
-int right = 1;
+int right = 0;
 
 // SENSITIVITY (the smaller the following parameter, the more sensitive the system reacts to changes in data)
 
